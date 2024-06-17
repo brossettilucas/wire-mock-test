@@ -1,6 +1,6 @@
 const express = require("express");
 
-const getWeather = require("./getWeather");
+const getWeather = require("./get-weather");
 
 const router = express.Router();
 
@@ -10,6 +10,6 @@ router.get("/", (req, res) => {
   });
 });
 
-router.use("/getWeather", getWeather);
+router.use("/get-weather", getWeather);
 
 module.exports = router;

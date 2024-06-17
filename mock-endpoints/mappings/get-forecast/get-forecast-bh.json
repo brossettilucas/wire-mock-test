@@ -1,0 +1,18 @@
+{
+    "request": {
+      "urlPathPattern": "/forecast/([a-z0-9]*)/-19.9227318,-43.9450948",
+      "method": "GET",
+      "queryParameters" : {
+        "units" : {
+          "equalTo" : "si"
+        }
+      }
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "bodyFileName": "pirate-weather/get-forecast-bh-response.json"
+    }
+  }

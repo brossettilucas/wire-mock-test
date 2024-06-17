@@ -1,0 +1,19 @@
+{
+    "request": {
+      "urlPath": "/geocode/v1/json",
+      "method": "GET",
+      "queryParameters" : {
+        "q" : {
+          "equalTo" : "Belo-Horizonte-Brazil"
+        }
+      }
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "bodyFileName": "open-cage-data/get-geolocation-bh-response.json"
+    }
+  }
+  

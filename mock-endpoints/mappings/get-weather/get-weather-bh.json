@@ -1,0 +1,21 @@
+{
+    "request": {
+      "urlPath": "/api/v1/get-weather",
+      "method": "GET",
+      "queryParameters" : {
+        "city" : {
+          "equalTo" : "Belo-Horizonte"
+        },
+        "country": {
+            "equalTo" : "Brazil"
+        }
+      }
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "bodyFileName": "api/get-weather-bh-response.json"
+    }
+  }

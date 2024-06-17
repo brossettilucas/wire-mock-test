@@ -1,0 +1,142 @@
+{
+    "documentation": "https://opencagedata.com/api",
+    "licenses": [
+        {
+            "name": "see attribution guide",
+            "url": "https://opencagedata.com/credits"
+        }
+    ],
+    "rate": {
+        "limit": 2500,
+        "remaining": 2496,
+        "reset": 1718668800
+    },
+    "results": [
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "19\u00b0 55' 21.83448'' S",
+                    "lng": "43\u00b0 56' 42.34128'' W"
+                },
+                "MGRS": "23KPT1040796722",
+                "Maidenhead": "GH80ab68on",
+                "Mercator": {
+                    "x": -4891945.576,
+                    "y": -2249326.577
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?relation=368782#map=17/-19.92273/-43.94509",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/-19.92273/-43.94509&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-19.92273&mlon=-43.94509#map=17/-19.92273/-43.94509"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "BR": "076",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "LEDC"
+                    ]
+                },
+                "callingcode": 55,
+                "currency": {
+                    "decimal_mark": ",",
+                    "html_entity": "R$",
+                    "iso_code": "BRL",
+                    "iso_numeric": "986",
+                    "name": "Brazilian Real",
+                    "smallest_denomination": 5,
+                    "subunit": "Centavo",
+                    "subunit_to_unit": 100,
+                    "symbol": "R$",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "\ud83c\udde7\ud83c\uddf7",
+                "geohash": "7h2y8j0jtjd7dsbz2fjq",
+                "qibla": 67.79,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1718616600,
+                        "astronomical": 1718611860,
+                        "civil": 1718615160,
+                        "nautical": 1718613540
+                    },
+                    "set": {
+                        "apparent": 1718655840,
+                        "astronomical": 1718660520,
+                        "civil": 1718657280,
+                        "nautical": 1718658900
+                    }
+                },
+                "timezone": {
+                    "name": "America/Sao_Paulo",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "BRT"
+                },
+                "what3words": {
+                    "words": "servers.reply.manual"
+                },
+                "wikidata": "Q42800"
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -19.7765437,
+                    "lng": -43.8572199
+                },
+                "southwest": {
+                    "lat": -20.0594646,
+                    "lng": -44.0632916
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "BR",
+                "ISO_3166-1_alpha-3": "BRA",
+                "ISO_3166-2": [
+                    "BR-MG"
+                ],
+                "_category": "place",
+                "_normalized_city": "Belo Horizonte",
+                "_type": "municipality",
+                "continent": "South America",
+                "country": "Brasil",
+                "country_code": "br",
+                "county": "Regi\u00e3o Metropolitana de Belo Horizonte",
+                "municipality": "Belo Horizonte",
+                "region": "Regi\u00e3o Sudeste",
+                "state": "Minas Gerais",
+                "state_code": "MG",
+                "state_district": "Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Belo Horizonte"
+            },
+            "confidence": 4,
+            "formatted": "Belo Horizonte, Regi\u00e3o Metropolitana de Belo Horizonte, Brasil",
+            "geometry": {
+                "lat": -19.9227318,
+                "lng": -43.9450948
+            }
+        }
+    ],
+    "status": {
+        "code": 200,
+        "message": "OK"
+    },
+    "stay_informed": {
+        "blog": "https://blog.opencagedata.com",
+        "mastodon": "https://en.osm.town/@opencage"
+    },
+    "thanks": "For using an OpenCage API",
+    "timestamp": {
+        "created_http": "Mon, 17 Jun 2024 00:47:43 GMT",
+        "created_unix": 1718585263
+    },
+    "total_results": 1
+}
